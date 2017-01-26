@@ -9,7 +9,8 @@ The goal of the workshop is to get everyone a bit more comfortable with CSS, and
 #### So how do I prepare for the workshop?  
 - Have a working laptop
 - Get a fancy text editor (I personally use Atom)
-- That's pretty much it!  
+- Maybe some coffee? It's pretty hard to stay awake when I talk, so be warned!
+- Leave your social anxiety outside! This is a welcoming environment where we would love to discuss everything in a friendly manner, so don't be afraid to ask (and answer questions)! 
 
 ----
 
