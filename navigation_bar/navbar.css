@@ -1,17 +1,18 @@
 /* Set the page's appearance to something more proffesional */
 body {
-  background-color: #ccc;
+  background-color: #EEE;
   font-family: Roboto, sans-serif;
 }
 
 
-/* Remove margins and padding from the list, and add a black background color */
+/* Remove margins and padding from the list, add a background color, and a nice elegant shadow */
 ul.navBar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #2196F3;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Float the list items side by side */
@@ -26,11 +27,11 @@ ul.navBar li a {
   text-decoration: none;
   transition: all 0.4s;
   font-size: 16px;
-  color: #CCC;
+  color: #EEE;
 
   /* Cool trick */
   color: transparent;
-  text-shadow: 0 0 2px rgba(210,210,210,0.9);
+  text-shadow: 0 0 2px rgba(230,230,230,0.9);
 }
 
 /* Change background color of links on hover */
