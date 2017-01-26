@@ -7,11 +7,11 @@ body {
 
 /* Remove margins and padding from the list, and add a black background color */
 ul.navBar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 /* Float the list items side by side */
@@ -19,19 +19,26 @@ ul.navBar li {float: left;}
 
 /* Style the links inside the list items */
 ul.navBar li a {
-    display: inline-block;
-    position: relative;
-    color: #ccc;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: all 0.4s;
-    font-size: 16px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-size: 16px;
+  color: #CCC;
+
+  /* Cool trick */
+  color: transparent;
+  text-shadow: 0 0 2px rgba(210,210,210,0.9);
 }
 
 /* Change background color of links on hover */
 ul.navBar li a:hover {
   color: #FFF;
+
+  /* Cool Trick */
+  text-shadow: none;
 }
 
 /* Add a line under the list items */
